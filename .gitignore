@@ -1,2 +1,5 @@
 /.vscode
 /.gitignore
+G tasks/input.txt
+G tasks/output.txt
+G tasks/paths.txt
