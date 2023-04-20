@@ -13,9 +13,5 @@ int main()
     long n;
     scanf("%ld", &n);
     printf("%ld", factorial(n));
-
-    
-    // считает количество комбинаций из 2 чисел в наборе из N чисел
-
     return 0;
 }

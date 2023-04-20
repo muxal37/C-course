@@ -1,7 +1,7 @@
 #include <stdio.h>
 #define SIZE 64
 
-long factorial(int* arr, long num){
+long factors(int* arr, long num){
     int c = 0;
     int d = 2;
     while (num > 1){
@@ -27,7 +27,7 @@ int main()
         return 0;
     }
     int out[SIZE] = {0};
-    factorial(out, n);
+    factors(out, n);
     for (int i = 0; i < SIZE; i++)
     {
         if (out[i] == 0){

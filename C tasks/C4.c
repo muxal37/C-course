@@ -1,5 +1,4 @@
 #include <stdio.h>
-#define SIZE 127
 
 long billy(long x) {
     

@@ -1,5 +1,4 @@
 #include <stdio.h>
-#define SIZE 64
 
 long gcd(int a, int b){
     int tmp;

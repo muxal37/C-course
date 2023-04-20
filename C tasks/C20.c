@@ -1,8 +1,6 @@
 #include <stdio.h>
-#define SIZE 64
 
 int main() {
-    char inp[SIZE] = {""};
     char c;
     int k = 0;
     while ((c = getchar()) != EOF) {

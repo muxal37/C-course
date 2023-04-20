@@ -1,6 +1,7 @@
 #include <stdio.h>
-#define SIZE 64
 #define PI 3.1415926535
+
+// Можно решить без факториала (см. "C12_opt.c" )
 
 long factorial(long num){
     if (num > 1){

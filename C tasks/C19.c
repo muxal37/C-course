@@ -1,5 +1,4 @@
 #include <stdio.h>
-#define SIZE 64
 
 int digit_to_num(char letter) {
     if (letter >= '0' && letter <= '9') {
@@ -10,7 +9,6 @@ int digit_to_num(char letter) {
 
 
 int main() {
-    char inp[SIZE] = {""};
     char c;
     int k = 0;
     while ((c = getchar()) != EOF) {
